@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coustard">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="background-image:url(&quot;assets/img/lib.jpg&quot;);background-repeat:no-repeat;background-size:cover;background-position:center;">
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md" data-aos="slide-up" style="background-color:rgba(0,0,0,0);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size:32px;font-family:Coustard, serif;">KL library</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto" style="font-size:21px;">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Book Entry</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link " href="bookissue.html">Book Issue</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="bookreturn.html">Book Return</a></li>
+                         <li class="nav-item" role="presentation"><a class="nav-link" href="booksearch.html">Book Search</a></li>
+                       <li class="nav-item" role="presentation"><a class="nav-link" href="logout.html">Logout</a></li>
+                         
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <div class="register-photo" style="background-color:rgba(241,247,252,0);padding-top:50px;padding-bottom:50px;">
+        <div class="form-container" style="width:475px;margin-right:50px;">
+            <form method="post" action="entry" data-bs-hover-animate="bounce">
+                <h2 class="text-center"><strong>Book Details</strong></h2>
+                <div class="form-group"><input class="form-control" type="text" required="" name="name" placeholder="Book Name" minlength="5" autofocus=""></div>
+                <div class="form-group"><input class="form-control" type="text" name="id" placeholder="Book Id"></div>
+                <div class="form-group"><input class="form-control" type="text" name="author" placeholder="Book Author"></div>
+                 <div class="form-group"><input class="form-control" type="text" name="cat" placeholder="Book Category"></div>
+                <div class="form-group"><input class="form-control" type="number" name="avail" placeholder="Availability"></div>
+               
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Submit</button></div></form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

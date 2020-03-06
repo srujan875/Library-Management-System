@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="BookDetails" table="bookinfo">
+
+<id name="bookid"></id>
+<property name="bookname"></property>
+<property name="bookauthor"></property>
+<property name="bookcategory"></property>
+<property name="availability"></property>
+
+
+</class>
+
+</hibernate-mapping>

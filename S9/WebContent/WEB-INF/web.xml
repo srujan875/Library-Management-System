@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>logindemo</servlet-name>
+    <servlet-class>LoginCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logindemo</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>entry</servlet-name>
+    <servlet-class>BookEntry</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>entry</servlet-name>
+    <url-pattern>/entry</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>log</servlet-name>
+    <servlet-class>Log</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>log</servlet-name>
+    <url-pattern>/log</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>return</servlet-name>
+    <servlet-class>Return</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>return</servlet-name>
+    <url-pattern>/return</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>Booksearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+</web-app>

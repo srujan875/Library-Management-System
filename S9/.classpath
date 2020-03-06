@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/hibernate-commons-annotations-3.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/hibernate-core-3.6.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/jms-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/hibernate jars/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/srujan/Desktop/jdbc/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
